@@ -25,19 +25,19 @@ treatment_betas="/Volumes/Research_Data/Renew_Diagnostics/Alzheimers_Study/Micro
 example:
 illumina_annotation="/Volumes/Research_Data/USEQ_Analyses/Annotation_Files/450k_annotation.csv"
 
-### 5. Path to 'R_Script.R script' file provided in this repository
+### 5. Path to the 'R_Script.R script' file provided in this repository
 example:
 sgr_script="/Volumes/Research_Data/USEQ_Analyses/useq_prep_r.R"
 
-### 6. Path to Sgr2Bar program provided in the apps folder of 
+### 6. Path to the Sgr2Bar program in the apps folder of the 'USeq_9.3.3' folder provided in this repository
 example:
 Sgr2Bar="/Volumes/Research_Data/USEQ_Analyses/USeq_9.3.3/Apps/Sgr2Bar"
 
-### 7. Path to MethylationArrayScanner program
+### 7. Path to the MethylationArrayScanner program in the apps folder of the 'USeq_9.3.3' folder provided in this repository
 example:
 MethylationArrayScanner="/Volumes/Research_Data/USEQ_Analyses/USeq_9.3.3/Apps/MethylationArrayScanner"
 
-### 8. Path to EnrichedRegionMaker program
+### 8. Path to the EnrichedRegionMaker program in the apps folder of the 'USeq_9.3.3' folder provided in this repository
 example:
 EnrichedRegionMaker="/Volumes/Research_Data/USEQ_Analyses/USeq_9.3.3/Apps/EnrichedRegionMaker"
 
@@ -48,3 +48,11 @@ Control_Samples=GSM2589158_7507875069_R04C01,GSM2589159_7786915003_R02C01,GSM258
 ### 10. List of Treatment sample names (Must be comma delimited with no spaces. Must match the column names in the control beta values files from step 3)
 example:
 Testing_Samples=GSM4749846_3999431158_R01C02,GSM4749847_3999431144_R06C01,GSM4749848_3999442091_R05C01,GSM4749849_3999423019_R03C02,GSM4749850_3999431144_R04C02,GSM4749851_3999431158_R03C01,GSM4749852_3999423013_R03C01,GSM4749853_3999423013_R06C02
+
+### 11. Save these changes you made and close the file
+
+
+Once theses 11 changes have been made you can run the pipeline inside terminal using the 'bash' command followed by the pathname to the 'useq_pipeline.sh' file.
+example: bash /Users/chadpollard/Documents/My_Github/USEQ-Pipeline/useq_pipeline.sh
+
+Good luck!
