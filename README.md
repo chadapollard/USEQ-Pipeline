@@ -25,11 +25,11 @@ treatment_betas="/Volumes/Research_Data/Renew_Diagnostics/Alzheimers_Study/Micro
 example:
 illumina_annotation="/Volumes/Research_Data/USEQ_Analyses/Annotation_Files/450k_annotation.csv"
 
-### 5. Path to useq_prep_r.R script (This file can be downloaded from this github link: )
+### 5. Path to 'R_Script.R script' file provided in this repository
 example:
 sgr_script="/Volumes/Research_Data/USEQ_Analyses/useq_prep_r.R"
 
-### 6. Path to Sgr2Bar program
+### 6. Path to Sgr2Bar program provided in the apps folder of 
 example:
 Sgr2Bar="/Volumes/Research_Data/USEQ_Analyses/USeq_9.3.3/Apps/Sgr2Bar"
 
