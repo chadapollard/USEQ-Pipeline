@@ -1,5 +1,5 @@
 # Steps to running this USEQ-Pipeline
-This is a sliding window pipeline that uses the USEQ tool from the Universtiry of Utah to do a whole genome scan to find differentially methylated regions between two sample groups.
+This is a sliding window pipeline that uses the USEQ tool from the Universtiry of Utah to do a whole genome scan on Illumina Methylation Array data to find differentially methylated regions between two sample groups.
 
 
 ## R-packages Required for this pipeline
@@ -21,7 +21,7 @@ control_betas="/Volumes/Research_Data/Renew_Diagnostics/Alzheimers_Study/Micro_A
 example:
 treatment_betas="/Volumes/Research_Data/Renew_Diagnostics/Alzheimers_Study/Micro_Array_Data/450k_Data/Whole_Blood/peripheral_blood_betas.csv"
 
-### 4. Path to Treatment Beta values (Make sure it is a .csv file and that CG's are in the rows and that CHR and START are in the columns)
+### 4. Add the pathname to the Annotation file provided in this repository (Can be either EPIC or 450K depending on which array your data was run on)
 example:
 illumina_annotation="/Volumes/Research_Data/USEQ_Analyses/Annotation_Files/450k_annotation.csv"
 
