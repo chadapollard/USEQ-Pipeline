@@ -1,13 +1,11 @@
 # Steps to running this USEQ-Pipeline
 This is a sliding window pipeline that uses the USEQ tool from the Universtiry of Utah to do a whole genome scan on Illumina Methylation Array data to find differentially methylated regions between two sample groups.
 
+Note: Before running the pipeline you will need to download this repository to your computer and open the 'useq_pipeline.sh' file. Then make the following changes to the file.
 
 ## R-packages Required for this pipeline
   1. Minfi
   2. argparse
-
-
-Before running the pipeline you will need to download this repository to your computer and open the 'useq_pipeline.sh' file. Then make the following changes to the file.
 
 ### 1. Add the pathname to the base directory where you want your USEQ files to be created. Don't forget to add a "/" at the end as we want the files to be created inside this directory.
 example:
