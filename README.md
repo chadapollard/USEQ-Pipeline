@@ -13,7 +13,7 @@ Before running the pipeline you will need to download this repository to your co
 example:
 base_dir="/Volumes/Research_Data/USEQ_Analyses/Completed_Studies/Blood_vs_Neurons/Orbital_Frontal_Cortex_vs_Blood/"
 
-### 2. Add the pathname to the Control Beta values file (Make sure it is a .csv file CG's are in the rows and sample names are in the columns)
+### 2. Add the pathname to the Control Beta values (Make sure it is a .csv file CG's are in the rows and sample names are in the columns)
 example:
 control_betas="/Volumes/Research_Data/Renew_Diagnostics/Alzheimers_Study/Micro_Array_Data/450k_Data/Neurons/Orbitofrontal_Cortex/control_neuron_betas.csv"
 
