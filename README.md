@@ -21,30 +21,30 @@ control_betas="/Volumes/Research_Data/Renew_Diagnostics/Alzheimers_Study/Micro_A
 example:
 treatment_betas="/Volumes/Research_Data/Renew_Diagnostics/Alzheimers_Study/Micro_Array_Data/450k_Data/Whole_Blood/peripheral_blood_betas.csv"
 
-# 4. Path to Treatment Beta values (Make sure it is a .csv file and that CG's are in the rows and that CHR and START are in the columns)
+### 4. Path to Treatment Beta values (Make sure it is a .csv file and that CG's are in the rows and that CHR and START are in the columns)
 example:
 illumina_annotation="/Volumes/Research_Data/USEQ_Analyses/Annotation_Files/450k_annotation.csv"
 
-# 5. Path to useq_prep_r.R script (This file can be downloaded from this github link: )
+### 5. Path to useq_prep_r.R script (This file can be downloaded from this github link: )
 example:
 sgr_script="/Volumes/Research_Data/USEQ_Analyses/useq_prep_r.R"
 
-# 6. Path to Sgr2Bar program
+### 6. Path to Sgr2Bar program
 example:
 Sgr2Bar="/Volumes/Research_Data/USEQ_Analyses/USeq_9.3.3/Apps/Sgr2Bar"
 
-# 7. Path to MethylationArrayScanner program
+### 7. Path to MethylationArrayScanner program
 example:
 MethylationArrayScanner="/Volumes/Research_Data/USEQ_Analyses/USeq_9.3.3/Apps/MethylationArrayScanner"
 
-# 8. Path to EnrichedRegionMaker program
+### 8. Path to EnrichedRegionMaker program
 example:
 EnrichedRegionMaker="/Volumes/Research_Data/USEQ_Analyses/USeq_9.3.3/Apps/EnrichedRegionMaker"
 
-# 9. List of Control sample names (Must be comma delimited with no spaces. Must match the column names in the control beta values files from step 2)
+### 9. List of Control sample names (Must be comma delimited with no spaces. Must match the column names in the control beta values files from step 2)
 example:
 Control_Samples=GSM2589158_7507875069_R04C01,GSM2589159_7786915003_R02C01,GSM2589160_7786915003_R03C01,GSM2589162_7507875069_R02C02,GSM2589163_7786915003_R04C01,GSM2589164_7507875069_R04C02,GSM2589168_6229068023_R02C01
 
-# 10. List of Treatment sample names (Must be comma delimited with no spaces. Must match the column names in the control beta values files from step 3)
+### 10. List of Treatment sample names (Must be comma delimited with no spaces. Must match the column names in the control beta values files from step 3)
 example:
 Testing_Samples=GSM4749846_3999431158_R01C02,GSM4749847_3999431144_R06C01,GSM4749848_3999442091_R05C01,GSM4749849_3999423019_R03C02,GSM4749850_3999431144_R04C02,GSM4749851_3999431158_R03C01,GSM4749852_3999423013_R03C01,GSM4749853_3999423013_R06C02
