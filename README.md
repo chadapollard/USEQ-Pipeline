@@ -1,4 +1,4 @@
-# USEQ-Pipeline
+# Steps to running this USEQ-Pipeline
 This is a sliding window pipeline that uses the USEQ tool from the Universtiry of Utah to do a whole genome scan to find differentially methylated regions between two sample groups.
 
 
