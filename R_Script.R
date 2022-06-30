@@ -56,6 +56,10 @@ head(mydf[,c(1:10)])
 
 chr<-c("chr1","chr2","chr3","chr4","chr5","chr6","chr7","chr8","chr9","chr10","chr11","chr12","chr13","chr14","chr15","chr16","chr17","chr18","chr19","chr20","chr21","chr22","chrX","chrY")
 
+
+# Something to try to improve this loop write.table(utms, file=paste(x, ".mean", sep=""))
+# This should make it so that you don't need the extra directories that are made for each chromosome
+
 print("Creating .sgr chromosomes files in USEQ_Prep folder for each sample")
 count = 0
 for(i in colnames(mydf)){

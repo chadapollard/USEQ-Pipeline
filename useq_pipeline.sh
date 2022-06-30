@@ -1,34 +1,34 @@
 ### Paths to necessary files for USEQ Analysis
 
 # Path to base directory where you want your USEQ files to be created. Don't forget to add a "/" at the end as we want the files to be created inside this directory.
-base_dir="/Volumes/Research_Data/USEQ_Analyses/Completed_Studies/Endometrial_Tissue_vs_Blood/"
+base_dir="/Volumes/Research_Data/USEQ_Analyses/Completed_Studies/Low_Income_vs_High_Income_FASZT/"
 
 # Path to Control Beta values (Make sure it is a .csv file CG's are in the rows and sample names are in the columns)
-control_betas="/Volumes/Research_Data/USEQ_Analyses/Completed_Studies/Endometrial_Tissue_vs_Blood/blood_betas.csv"
+control_betas="/Volumes/Research_Data/USEQ_Analyses/Completed_Studies/Low_Income_vs_High_Income_FASZT/under_40k_betas.csv"
 
 # Path to Treatment Beta values (Make sure it is a .csv file and that CG's are in the rows and sample names are in the columns)
-treatment_betas="/Volumes/Research_Data/USEQ_Analyses/Completed_Studies/Endometrial_Tissue_vs_Blood/Letourneau_MethylationEPIC_20201007_beta_values.csv"
+treatment_betas="/Volumes/Research_Data/USEQ_Analyses/Completed_Studies/Low_Income_vs_High_Income_FASZT/over_100k_betas.csv"
 
 # Path to Treatment Beta values (Make sure it is a .csv file and that CG's are in the rows and that CHR and START are in the columns)
-illumina_annotation="/Volumes/Research_Data/USEQ_Analyses/Annotation_Files/EPIC_array_annotation.csv"
+illumina_annotation="/Volumes/Research_Data/My_Github/USEQ-Pipeline/Annotation_Files/EPIC_array_annotation.csv"
 
 # Path to useq_prep_r.R script (This file can be downloaded from this github link: )
-sgr_script="/Volumes/Research_Data/USEQ_Analyses/useq_prep_r.R"
+sgr_script="/Volumes/Research_Data/My_Github/USEQ-Pipeline/R_Script.R"
 
 # Path to Sgr2Bar program
-Sgr2Bar="/Volumes/Research_Data/USEQ_Analyses/USeq_9.3.3/Apps/Sgr2Bar"
+Sgr2Bar="/Volumes/Research_Data/My_Github/USEQ-Pipeline/USeq_9.3.3/Apps/Sgr2Bar"
 
 # Path to MethylationArrayScanner program
-MethylationArrayScanner="/Volumes/Research_Data/USEQ_Analyses/USeq_9.3.3/Apps/MethylationArrayScanner"
+MethylationArrayScanner="/Volumes/Research_Data/My_Github/USEQ-Pipeline/USeq_9.3.3/Apps/MethylationArrayScanner"
 
 # Path to EnrichedRegionMaker program
-EnrichedRegionMaker="/Volumes/Research_Data/USEQ_Analyses/USeq_9.3.3/Apps/EnrichedRegionMaker"
+EnrichedRegionMaker="/Volumes/Research_Data/My_Github/USEQ-Pipeline/USeq_9.3.3/Apps/EnrichedRegionMaker"
 
 # Path to Control group names (Must be comma delimited with no spaces)
-Control_Samples=203219670028_R01C01,203219670028_R02C01,203219670028_R03C01,203219670028_R04C01,203219670028_R05C01,203219670028_R06C01,203219670028_R08C01,203219670145_R01C01,203219670145_R02C01,203219670145_R03C01,203219670145_R04C01,203219670145_R05C01,203219670145_R06C01,203219670145_R07C01,203219670145_R08C01,203219670153_R01C01,203219670153_R02C01,203219670153_R04C01,203219670153_R05C01,203219670153_R06C01,203219670153_R07C01,203219670153_R08C01,203219670191_R01C01,203219670191_R02C01,203219670191_R03C01,203219670191_R04C01,203219670191_R05C01,203219670191_R06C01,203219670191_R07C01,203219670191_R08C01,203219670204_R01C01,203219670204_R02C01,203219720030_R01C01,203219720030_R02C01,203219730092_R01C01,203219730092_R02C01,203219730092_R06C01,203219730092_R07C01,203219730092_R08C01,203219750033_R03C01,203219750033_R04C01,203220070080_R01C01,203220070080_R02C01,203220070080_R03C01,203220070080_R04C01,203220070080_R05C01,203220070080_R06C01,203220070080_R08C01,203220070153_R01C01,203220070153_R02C01,203220070153_R03C01,203220070153_R04C01,203225140050_R01C01,203225140050_R02C01,203225140050_R03C01,203225140050_R04C01,203225140050_R06C01,203225140082_R01C01,203225140082_R02C01,203225140082_R03C01,203225140082_R04C01,203225140082_R07C01,203225140082_R08C01,203225140170_R01C01,203225140170_R02C01,203225140170_R03C01,203225140170_R04C01,203225140170_R07C01,203225140170_R08C01,203225140175_R05C01,203225140175_R06C01
+Control_Samples=X10879,X11303,X20058,X20100,X20130,X50135,X10002,X10005,X10030,X10037,X10043,X10050,X10057,X10075,X10076,X10125,X10141,X10142,X10145,X10154,X10182,X10191,X10199,X10200,X10230,X10241,X10242,X10262,X10265,X10266,X10283,X10306,X10315,X10316,X10321,X10334,X10346,X10354,X10368,X10375,X10396,X10399,X10410,X10420,X10423,X10432,X10450,X10451,X10468,X10503,X10510,X10511,X10533,X10548,X10586,X10602,X10610,X10613,X10671,X10702,X10720,X10762,X10766,X10854,X10857,X10951,X10977,X10980,X11005,X11010,X11026,X11068,X11093,X11128,X11132,X11136,X11197,X11200,X11207,X11210,X11235,X11236,X11247,X11260,X11263,X11278,X11284,X11312,X11358,X11456,X11459,X11460,X11467,X11489,X11490,X11492,X11495,X20003,X20004,X20005
 
 # Path to Testing group names (Must be comma delimited with no spaces)
-Testing_Samples=204668830012_R01C01,204668830012_R02C01,204668830012_R03C01,204668830012_R04C01,204668830012_R05C01,204668830012_R06C01,204668830012_R07C01,204668830012_R08C01,204848060031_R01C01,204848060031_R02C01,204848060031_R03C01,204848060031_R04C01,204848060031_R05C01,204848060031_R06C01,204848060031_R07C01,204848060031_R08C01,204848060060_R01C01,204848060060_R02C01,204848060060_R03C01,204848060060_R04C01,204848060060_R05C01,204848060060_R06C01,204848060060_R07C01,204848060060_R08C01
+Treatment_Samples=X10124,X10526,X10990,X20055,X30266,X30267,X70032,X10007,X10010,X10011,X10014,X10017,X10020,X10031,X10034,X10038,X10045,X10055,X10071,X10079,X10080,X10086,X10093,X10097,X10100,X10113,X10118,X10131,X10137,X10148,X10151,X10152,X10158,X10161,X10163,X10169,X10185,X10206,X10209,X10225,X10226,X10240,X10244,X10247,X10248,X10255,X10258,X10263,X10273,X10278,X10288,X10291,X10292,X10293,X10322,X10324,X10325,X10327,X10330,X10350,X10363,X10367,X10409,X10416,X10424,X10430,X10441,X10442,X10444,X10446,X10455,X10458,X10463,X10486,X10487,X10514,X10518,X10529,X10541,X10545,X10551,X10565,X10572,X10614,X10616,X10625,X10632,X10637,X10645,X10647,X10662,X10663,X10664,X10668,X10672,X10674,X10681,X10684,X10713,X10721
 
 
 
@@ -54,7 +54,7 @@ echo ""
 echo "**** Running R-Script and Creating SGR Files ****"
 echo ""
 
-Rscript $sgr_script --base_dir $base_dir --control_betas $control_betas --treatment_betas $treatment_betas --illumina_annotation $illumina_annotation --USEQ_Prep $USEQ_Prep
+# Rscript $sgr_script --base_dir $base_dir --control_betas $control_betas --treatment_betas $treatment_betas --illumina_annotation $illumina_annotation --USEQ_Prep $USEQ_Prep
 
 ###########
 ## Converting SGR Files to Bar Files ##
@@ -99,7 +99,7 @@ echo "**** Running Sliding Window Analysis Forward ****"
 echo ""
 
 #Sliding Window Analysis
-# java -jar $MethylationArrayScanner -s ../USEQ_Results_Forward -d $USEQ_Prep -c $Control_Samples -t $Testing_Samples -n
+java -jar $MethylationArrayScanner -s ../USEQ_Results_Forward -d $USEQ_Prep -c $Control_Samples -t $Treatment_Samples -n
 
 ###########
 ## Creating Output Using Enriched Region Maker App ##
@@ -109,7 +109,7 @@ echo "**** Creating Forward Output Using Enriched Region Maker App ****"
 echo ""
 
 #Creating output using enriched region maker app
-# java -jar $EnrichedRegionMaker -f ../USEQ_Results_Forward/windowData1000bp0.2MinPse.swi -i 0,1 -s 0.2,10
+java -jar $EnrichedRegionMaker -f ../USEQ_Results_Forward/windowData1000bp0.2MinPse.swi -i 0,1 -s 0.2,10
 
 
 ###########
@@ -119,7 +119,7 @@ echo ""
 echo "**** Running Sliding Window Analysis Reverse ****"
 echo ""
 
-java -jar $MethylationArrayScanner -s ../USEQ_Results_Reverse -d $USEQ_Prep -t $Control_Samples -c $Testing_Samples -n
+java -jar $MethylationArrayScanner -s ../USEQ_Results_Reverse -d $USEQ_Prep -t $Control_Samples -c $Treatment_Samples -n
 
 
 ###########
